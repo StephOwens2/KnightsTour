@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <script src="script.js"></script>
+
+
+</head>
+<body>
+    <div id='playersContainer'>
+        <div id='boardTitle'>Knight's Tour</div>
+        <div id='boardContainer'>
+            <script>
+                buildBoard();
+                setPieces();
+            </script>
+        </div>
+
+        <div id='scorecard'>
+            Remaining: <span id='scorecardScore'>63</span>
+            <span id='scorecardGameOver'></span>
+            <br />
+            <button id='btnPlayAgain' type="button" onclick='playAgain();'>Play Again</button>
+
+
+        </div>
+    </div>
+
+</body>
+
+<!--
+Stephanie M. Owens
+-->
+</html>
